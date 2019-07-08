@@ -3,9 +3,10 @@ const fs = require('fs');
 
 describe('dont ask why', () => {
 
-  it('doesnt ask why', done => {
-    const str = words.toString;
-     for(i = 0; i <)
+  it('doesnt ask why',() => {
+    const words = ['sky', 'hot', 'Yeti', 'green'];
+
+    expect(words).toEqual(['hot', 'green'])
 
   
     
